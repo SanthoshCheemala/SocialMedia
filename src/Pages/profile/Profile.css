@@ -1,0 +1,63 @@
+.ProfileWrapper{
+    display: flex;
+}
+.Left{
+    flex: 25%;
+}
+
+.Right{
+    flex: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.Details{
+    position: relative;
+}
+.Place{
+    height: 250px;
+    width: 100%;
+}
+.Person{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 200px;
+    left: 56%;
+    
+}
+.bio{
+    margin-top: 70px;
+}
+.Details{
+    display: flex;
+}
+.Profile h3,p{
+    text-align: center;
+}
+pre{
+    color: lightgray;
+}
+.head{
+    color: gray;
+}
+.AboutMe{
+    flex: 50%;
+}
+.food{
+    flex: 75%;
+}
+.Current-Friends{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Current-Friends p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.User-Profile{
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px lightgray;
+}

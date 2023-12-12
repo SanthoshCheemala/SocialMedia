@@ -1,0 +1,25 @@
+.RightBar{
+    flex:3.5;
+}
+.RightWrapper{
+    padding:20px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Gift{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 15px;
+}
+.birthName{
+    font-weight: 700;
+}
+.online{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px lightgray;
+}

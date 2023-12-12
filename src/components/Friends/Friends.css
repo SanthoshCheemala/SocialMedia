@@ -1,0 +1,25 @@
+.profile{
+    list-style: none;
+    padding: 0%;
+}
+.profileList{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 12px;
+}
+.Profile-Img{
+    border-radius: 50%;
+}
+.Dot{
+    border-radius: 50%;
+    position:absolute;
+    top: -4px;
+    left:20px;
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    background-color: rgb(18, 181, 18);
+}

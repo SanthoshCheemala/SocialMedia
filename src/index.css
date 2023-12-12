@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p{
+  margin: 0%;
+  padding: 0%;
+}
+
+.NavBar{
+  display: flex;
+  background-color: rgb(57, 206, 255);
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  top: 1px;
+  padding: 5px 10px;
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+
+}
+
+.NavBarLeft{
+  flex: 3;
+  color: white;
+  justify-content: space-around;
+  align-items: center; 
+}
+.NavBarLeft h2{
+  margin: 0%;
+  padding: 0%;
+  cursor: pointer;
+}
+.NavBarCentre{
+  flex: 3;
+}
+.NavBarRight{
+  flex: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Search{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  height: 30px;
+  padding: 2px 5px;
+  width: 600px;
+
+}
+.Search input{
+  border: none;
+  width: 100%;
+  
+}
+.Search input:focus{
+  outline: none;
+}
+.Mine{
+  display: flex;
+  color: white;
+  gap: 5px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.Logo{
+  display: flex;
+  color: white;
+  gap: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+.Icon{
+  position: relative;
+}
+.Icon-Badge{
+  position: absolute;
+  font-size: 10px;
+  top:-5px;
+  left: 13px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 0px 4px;
+}
+.img-container img{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.img-container{
+  display: flex;
+  align-items: center;
+}
+.pro{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
